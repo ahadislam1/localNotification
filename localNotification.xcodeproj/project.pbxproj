@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		0B5D84B823FEE288006307A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84B723FEE288006307A3 /* AppDelegate.swift */; };
 		0B5D84BA23FEE288006307A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84B923FEE288006307A3 /* SceneDelegate.swift */; };
-		0B5D84BC23FEE288006307A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84BB23FEE288006307A3 /* ViewController.swift */; };
+		0B5D84BC23FEE288006307A3 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84BB23FEE288006307A3 /* NotificationViewController.swift */; };
 		0B5D84BF23FEE288006307A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D84BD23FEE288006307A3 /* Main.storyboard */; };
 		0B5D84C123FEE289006307A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D84C023FEE289006307A3 /* Assets.xcassets */; };
 		0B5D84C423FEE289006307A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D84C223FEE289006307A3 /* LaunchScreen.storyboard */; };
 		0B5D84CF23FEE289006307A3 /* localNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84CE23FEE289006307A3 /* localNotificationTests.swift */; };
+		0B5D84DA23FEE972006307A3 /* CreateNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84D923FEE972006307A3 /* CreateNotificationViewController.swift */; };
+		0B5D84DC23FEEB02006307A3 /* PendingNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D84DB23FEEB02006307A3 /* PendingNotification.swift */; };
+		0B5D84DE23FEF3B2006307A3 /* pursuit-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B5D84DD23FEF3B2006307A3 /* pursuit-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,7 @@
 		0B5D84B423FEE288006307A3 /* localNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5D84B723FEE288006307A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B5D84B923FEE288006307A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B5D84BB23FEE288006307A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B5D84BB23FEE288006307A3 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		0B5D84BE23FEE288006307A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B5D84C023FEE289006307A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B5D84C323FEE289006307A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		0B5D84CA23FEE289006307A3 /* localNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5D84CE23FEE289006307A3 /* localNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localNotificationTests.swift; sourceTree = "<group>"; };
 		0B5D84D023FEE289006307A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5D84D923FEE972006307A3 /* CreateNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotificationViewController.swift; sourceTree = "<group>"; };
+		0B5D84DB23FEEB02006307A3 /* PendingNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingNotification.swift; sourceTree = "<group>"; };
+		0B5D84DD23FEF3B2006307A3 /* pursuit-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pursuit-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +87,10 @@
 			children = (
 				0B5D84B723FEE288006307A3 /* AppDelegate.swift */,
 				0B5D84B923FEE288006307A3 /* SceneDelegate.swift */,
-				0B5D84BB23FEE288006307A3 /* ViewController.swift */,
+				0B5D84D923FEE972006307A3 /* CreateNotificationViewController.swift */,
+				0B5D84BB23FEE288006307A3 /* NotificationViewController.swift */,
+				0B5D84DD23FEF3B2006307A3 /* pursuit-logo.png */,
+				0B5D84DB23FEEB02006307A3 /* PendingNotification.swift */,
 				0B5D84BD23FEE288006307A3 /* Main.storyboard */,
 				0B5D84C023FEE289006307A3 /* Assets.xcassets */,
 				0B5D84C223FEE289006307A3 /* LaunchScreen.storyboard */,
@@ -181,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5D84C423FEE289006307A3 /* LaunchScreen.storyboard in Resources */,
+				0B5D84DE23FEF3B2006307A3 /* pursuit-logo.png in Resources */,
 				0B5D84C123FEE289006307A3 /* Assets.xcassets in Resources */,
 				0B5D84BF23FEE288006307A3 /* Main.storyboard in Resources */,
 			);
@@ -200,9 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B5D84BC23FEE288006307A3 /* ViewController.swift in Sources */,
+				0B5D84BC23FEE288006307A3 /* NotificationViewController.swift in Sources */,
+				0B5D84DC23FEEB02006307A3 /* PendingNotification.swift in Sources */,
 				0B5D84B823FEE288006307A3 /* AppDelegate.swift in Sources */,
 				0B5D84BA23FEE288006307A3 /* SceneDelegate.swift in Sources */,
+				0B5D84DA23FEE972006307A3 /* CreateNotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
